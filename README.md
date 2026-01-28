@@ -23,3 +23,14 @@ To create a workspace you have to go to file>save workspace as
 Comand to run the server:
 
 python manage.py runserver
+
+Django commands
+
+python manage.py collectstatic --noinput
+python manage.py makemigrations # local change
+python manage.py migrate --noinput
+
+
+/opt/venv/bin/python manage.py migrate --noinput
+python manage.py createsuperuser --email YOUR_EMAIL --noinput
+
